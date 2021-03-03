@@ -1,98 +1,44 @@
 <!DOCTYPE HTML>
-<!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-	<img src="https://hitwebcounter.com/counter/counter.php?page=7694477&style=0007&nbdigits=5&type=page&initCount=0" title="Total Website Hits" Alt="Web Hits"   border="0" /></a> 
 
 <html>
 	<head>
-		<title>Welcome</title>
+		<title>Vidhu Sarwal</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<section id="main">
-						<header>
-							
-							<h1>Vidhu Sarwal</h1>
-							
-							
-						    <p>Expertise in Python & <br> Web Development</p>
-						</header>
-					<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field">
-									<input type="text" name="name" id="name" placeholder="Name" />
-								</div>
-								<div class="field">
-									<input type="email" name="email" id="email" placeholder="Email" />
-								</div>
-								<div class="field">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-								<div class="field">
-									<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-								</div>
-								<div class="field">
-									<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-								</div>
-								<div class="field">
-									<label>But are you a robot?</label>
-									<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-									<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-								</div>
-							</div>
-							<ul class="actions special">
-								<li><a href="#" class="button">Get Started</a></li>
+				<!-- Header -->
+					<header id="header">
+						<h1>Vidhu Sarwal</h1>
+						<p> Human &nbsp;&bull;&nbsp; Backend Dev &nbsp;&bull;&nbsp; Maybe Music?</p>
+						<nav>
+							<ul>
+								
+								<li><a href="https://github.com/VidhuSarwal" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://open.spotify.com/user/prlh84497h67r95myfgg7s62i" class="icon brands fa-spotify"><span class="label">Dribbble</span></a></li>
+								<li><a href="mailto:vidhusarwal@hotmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
-						</form>
-						<hr />
-					-->
-						<footer>
-							<ul class="icons">
-								<li><a href="https://www.reddit.com/user/Impressive-Cattle-70" class="icon brands fa-reddit">Twitter</a></li>
-								<li><a href="https://geek.digit.in/community/members/rumbamon19.341740/" class="icon brands fa-dochub">Instagram</a></li>
-								<li><a href="#" class="icon brands fa-linkedin">Facebook</a></li>
-							</ul>
-						</footer>
-						<!--
-						<a href="TIME.html" ><u><b>TIMELINE</b></u></a>
-						<br>
-						<a href="Pricing.html"> <strong> <u>Pricing</u> </strong> </a>
-					</section>
--->
-
+						</nav>
+					</header>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<ul class="copyright">
-							
-						</ul>
+						
 					</footer>
 
 			</div>
-
-		<!-- Scripts -->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
